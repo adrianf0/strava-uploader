@@ -5,7 +5,7 @@ import uuid
 
 from dotenv import load_dotenv
 from stravalib import Client, exc
-from stravalib.util.limiter import RateLimiter, RequestRate
+from stravalib.util.limiter import RateLimiter
 from requests.exceptions import ConnectionError
 import csv
 import shutil
