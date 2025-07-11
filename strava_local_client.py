@@ -48,8 +48,8 @@ if __name__ == '__main__':
     if args['get_write_token']:
         dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
         load_dotenv(dotenv_path)
-        CLIENT_ID = int(os.environ.get("CLIENT_ID"))
-        CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+        CLIENT_ID = int(os.environ.get("STRAVA_CLIENT_ID"))
+        CLIENT_SECRET = os.environ.get("STRAVA_CLIENT_SECRET")
 
         auth_url = API_CLIENT.authorization_url(
             client_id=CLIENT_ID,
