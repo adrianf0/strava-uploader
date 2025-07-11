@@ -45,7 +45,8 @@ activity_translations = {
     'mountain biking': 'ride',
     'hiking': 'hike',
     'walking': 'walk',
-    'swimming': 'swim'
+    'swimming': 'swim',
+    'downhill skiing': 'alpineski'
 }
 
 # https://stackoverflow.com/a/35904211/1106893
