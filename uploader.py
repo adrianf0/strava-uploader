@@ -339,8 +339,8 @@ class RunkeeperToStravaImporter:
                 try:
                     # if there is a gpx file listed, find it and upload it
                     gpx_file = row['GPX File']
+                    raw_activity_type = str(row['Type'])
                     if ".gpx" in gpx_file:
-                        raw_activity_type = str(row['Type'])
                         activity_type = RunkeeperToStravaImporter.activity_translator(raw_activity_type)
 
                         if activity_type is not None:
